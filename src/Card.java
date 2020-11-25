@@ -49,8 +49,7 @@ public class Card {
         if (rank == null) return null;
         if (rank.length() != 1) return null;
 
-        // return a card based on a rank, returning null if the provided
-        // rank is invalid or unrecognized
+        
 
         if (rank.equals("T") ||
                 rank.equals("J") ||
